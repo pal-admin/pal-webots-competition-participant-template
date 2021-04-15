@@ -24,8 +24,8 @@ robot = Robot()
 timestep = int(robot.getBasicTimeStep())
 
 # Initialize motors
-motor_left = robot.getDevice('left wheel motor')
-motor_right = robot.getDevice('right wheel motor')
+motor_left = robot.getDevice('wheel_left_joint')
+motor_right = robot.getDevice('wheel_right_joint')
 motor_left.setPosition(float('inf'))
 motor_right.setPosition(float('inf'))
 motor_left.setVelocity(0)
