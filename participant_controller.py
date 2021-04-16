@@ -16,11 +16,12 @@
 
 """Skeleton for the competing robot."""
 
-from controller import Robot
+from controller import Robot, Supervisor
+from math import pi
 
 
 # Initialize the robot
-robot = Robot()
+robot = Supervisor()
 timestep = int(robot.getBasicTimeStep())
 
 # Initialize motors
@@ -31,6 +32,48 @@ motor_right.setPosition(float('inf'))
 motor_left.setVelocity(0)
 motor_right.setVelocity(0)
 
-while robot.step(timestep) != -1:
-    motor_left.setVelocity(3)
-    motor_right.setVelocity(3)
+poi1_node = robot.getFromDef('POI_F')
+position1 = poi1_node.getPosition()
+
+robot_node = robot.getFromDef('PARTICIPANT_ROBOT')
+
+while robot.step(timestep) != -1 and robot_node.getPosition()[0] + 2 < position1[0]:
+    motor_left.setVelocity(10)
+    motor_right.setVelocity(10)
+    
+while robot.step(timestep) != -1 and robot_node.getPosition()[0] + 0.5 < position1[0]:
+    motor_left.setVelocity(2)
+    motor_right.setVelocity(2)
+    
+while robot.step(timestep) != -1 and robot_node.getPosition()[0] < position1[0]:
+    motor_left.setVelocity(1)
+    motor_right.setVelocity(1)
+    
+motor_left.setVelocity(0)
+motor_right.setVelocity(0)
+
+while robot.step(timestep) != -1 and robot_node.getOrientation()[0] > 0.3:
+    motor_left.setVelocity(-0.5)
+    motor_right.setVelocity(0.5)
+
+while robot.step(timestep) != -1 and robot_node.getOrientation()[0] > 0:
+    motor_left.setVelocity(-0.1)
+    motor_right.setVelocity(0.1)
+    
+motor_left.setVelocity(0)
+motor_right.setVelocity(0)
+
+while robot.step(timestep) != -1 and robot_node.getPosition()[1] + 2 < position1[1]:
+    motor_left.setVelocity(10)
+    motor_right.setVelocity(10)
+    
+while robot.step(timestep) != -1 and robot_node.getPosition()[1] + 0.5 < position1[1]:
+    motor_left.setVelocity(2)
+    motor_right.setVelocity(2)
+    
+while robot.step(timestep) != -1 and robot_node.getPosition()[1] < position1[1]:
+    motor_left.setVelocity(1)
+    motor_right.setVelocity(1)
+    
+motor_left.setVelocity(0)
+motor_right.setVelocity(0)
