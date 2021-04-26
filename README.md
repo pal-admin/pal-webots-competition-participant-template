@@ -17,15 +17,6 @@ git clone https://github.com/cesc-folch/pal-webots-competition-organizer.git
 git clone [url_to_this_repo] pal-webots-competition-organizer/controllers/participant_controller
 ```
 
-If you want to use the examples use one of the following commands depending on the language you prefer::
-```
-cp examples/c/* .
-cp examples/cpp/* .
-cp examples/java/* .
-cp examples/python/* .
-cp examples/matlab/* .
-```
-
 Run the simulation, you can change `competition1.wbt` for any other map:
 ```bash
 webots pal-webots-competition-organizer/worlds/competition1.wbt
