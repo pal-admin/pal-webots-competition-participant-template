@@ -29,3 +29,6 @@ git add -A
 git commit -m "Great improvement"
 git push
 ```
+## Results
+
+You can check the results of the competition at [pal-admin.github.io/pal-webots-competition-organizer](https://pal-admin.github.io/pal-webots-competition-organizer).
