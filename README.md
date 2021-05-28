@@ -2,6 +2,8 @@
 
 [![Webots Badge](https://badgen.net/badge/icon/Rankings?label=Webots)](https://cyberbotics.github.io/webots-competition-organizer-template/)
 
+This repository is part of: <https://github.com/roboticslab-uc3m/challenge-iros2021>
+
 ## Register
 
 - Make a new repository out of [the template](https://github.com/pal-admin/pal-webots-competition-participant-template/generate).
