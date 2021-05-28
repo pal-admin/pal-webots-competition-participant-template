@@ -2,7 +2,7 @@
 
 [![Webots Badge](https://badgen.net/badge/icon/Rankings?label=Webots)](https://cyberbotics.github.io/webots-competition-organizer-template/)
 
-This repository is part of: <https://github.com/roboticslab-uc3m/challenge-iros2021>
+This repository is part of the [2021 IROS-RSJ Robotic Challenge for Young Students](https://github.com/roboticslab-uc3m/challenge-iros2021)!
 
 ## Register
 
