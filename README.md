@@ -8,7 +8,7 @@ This repository is part of the [2021 IROS-RSJ Robotic Challenge for Young Studen
 
 - Generate a new repository that uses the participant template: [`Use this template`](https://github.com/pal-admin/pal-webots-competition-participant-template/generate)
 - \[optional: only if you generated a private repository\]: Give permissions to the `pal-admin` user to `read` your repository, following: [these guidelines](https://docs.github.com/en/free-pro-team@latest/github/administering-a-repository/managing-teams-and-people-with-access-to-your-repository#inviting-a-team-or-person)
-- Contact the organizers to add your generated repository to: [competitors.txt](https://github.com/pal-admin/pal-webots-competition-organizer/edit/master/competitors.txt)
+- Contact the organizers to add your generated repository to: [competitors.txt](https://github.com/pal-admin/pal-webots-competition-organizer/blob/master/competitors.txt)
 
 ## Develop
 
