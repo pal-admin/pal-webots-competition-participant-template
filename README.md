@@ -1,4 +1,4 @@
-# webots-competition-competitor
+# pal-webots-competition-participant-template
 
 [![Webots Badge](https://badgen.net/badge/icon/Rankings?label=Webots)](https://cyberbotics.github.io/webots-competition-organizer-template/)
 
@@ -6,7 +6,7 @@ This repository is part of the [2021 IROS-RSJ Robotic Challenge for Young Studen
 
 ## Register
 
-- Generate a new repository that uses the template: [`Use this template`](https://github.com/pal-admin/pal-webots-competition-participant-template/generate)
+- Generate a new repository that uses the participant template: [`Use this template`](https://github.com/pal-admin/pal-webots-competition-participant-template/generate)
 - \[optional: only if you generated a private repository\]: Add `pal-admin` to [Manage access](https://docs.github.com/en/free-pro-team@latest/github/administering-a-repository/managing-teams-and-people-with-access-to-your-repository#inviting-a-team-or-person) section. This allows the organizers to be able to clone your repository via [pal-admin](https://github.com/pal-admin).
 - Add your repository to [competitors.txt](https://github.com/pal-admin/pal-webots-competition-organizer/edit/master/competitors.txt).
 
