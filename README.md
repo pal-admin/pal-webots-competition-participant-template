@@ -12,19 +12,22 @@ This repository is part of the [2021 IROS-RSJ Robotic Challenge for Young Studen
 
 ## Develop
 
-Download and install Webots on your computer: [Webots](https://github.com/cyberbotics/webots/releases/tag/R2021a) (e.g. [`webots-R2021a_setup.exe`](https://github.com/cyberbotics/webots/releases/download/R2021a/webots-R2021a_setup.exe) for Windows)
+Download and install Webots on your computer:
 
-Create the following directory structure:
+- [`webots-R2021a_setup.exe`](https://github.com/cyberbotics/webots/releases/download/R2021a/webots-R2021a_setup.exe) for Windows
+- Or versions for other OS at: <https://github.com/cyberbotics/webots/releases/tag/R2021a>
+
+From a terminal (only once):
 
 ```bash
 git clone https://github.com/pal-admin/pal-webots-competition-organizer.git
-git clone [url_to_this_repo] pal-webots-competition-organizer/controllers/participant_controller
+git clone [url_to_the_repo_you_generated] pal-webots-competition-organizer/controllers/participant_controller
 ```
 
-Run the simulation, you can change `competition1.wbt` for any other map:
+Then run the simulation:
 
 ```bash
-webots pal-webots-competition-organizer/worlds/competition1.wbt
+webots pal-webots-competition-organizer/worlds/competition1.wbt # you can change `competition1.wbt` for any other map
 ```
 
 Once you are satisfied with the result, you can push the changes:
@@ -37,4 +40,4 @@ git push
 
 ## Results
 
-You can check the results of the competition at [pal-admin.github.io/pal-webots-competition-organizer](https://pal-admin.github.io/pal-webots-competition-organizer).
+You can check the results of the competition at: <https://pal-admin.github.io/pal-webots-competition-organizer>
