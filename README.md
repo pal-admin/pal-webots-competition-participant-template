@@ -12,7 +12,7 @@ This repository is part of the [2021 IROS-RSJ Robotic Challenge for Young Studen
 
 ## Develop
 
-Download and install [Webots](https://github.com/cyberbotics/webots/releases/latest) on your local computer.
+Download and install Webots on your computer: [Webots](https://cyberbotics.com)
 
 Create the following directory structure:
 
